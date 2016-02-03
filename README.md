@@ -1,4 +1,6 @@
-My Awesome Book
+关于本书
 =======
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+本书摘取了笔者在平时遇到的一些经典算法，详细记录了解题思路分析，现在分享出来，以飨读者。
+
+时间精力所限，难免有所疏漏，如有问题，请发送邮件至 [hwang12wou@gmail.com](hwang12wou@gmail.com)，不胜感激。

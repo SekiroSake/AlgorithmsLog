@@ -25,7 +25,7 @@ quickSort(int[] array,int left, int right){
     int pivotIndex = partition(array,left, right);
     quickSort(array,left, pivotIndex - 1);
     quickSort(array,pivotIndex + 1, right);
-    
+
 }
 ```
 
@@ -71,21 +71,16 @@ Corner Case 分析：
 
 ```
 private int getRandomPivot(int left, int right){
-		return left + (int)Math.random()*(right - left + 1);
-	}
+        return left + (int)Math.random()*(right - left + 1);
+    }
 
 
 private void swap(int[] array, int left, int right) {
-		// TODO Auto-generated method stub
-		int temp = array[right];
-		array[right] = array[left];
-		array[left] = temp;
-	}
+        int temp = array[right];
+        array[right] = array[left];
+        array[left] = temp;
+    }
 ```
-
-
-
-
 
 
 

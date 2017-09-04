@@ -15,5 +15,13 @@ public void quickSort(int[] array){
 }
 ```
 
+在这里，quickSort方法内部调用了另外一个quickSort方法，他们的输入参数并不一样，这叫做Method Overloading。
+
+```
+quickSort(int[] array,int left, int right){
+
+}
+```
+
 
 

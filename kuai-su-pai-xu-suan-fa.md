@@ -1,8 +1,8 @@
 # 快速排序算法
 
-快速排序算法是排序算法中应用范围最广的一种算法，java中的默认Arrays.sort\(\) 即采用了排序算法作为其实现。
+快速排序算法是排序算法中应用范围最广的一种算法，java中的默认Arrays.sort\(\) 即采用了快速排序算法作为其实现。
 
-排序算法在面试过程中也经常直接或间接被考察到。他的实现涉及到了很多重要而细小的知识点，体现了很多数据结构的思想。所以建议经常练习快速排序算法，就好像练习毛笔字的人经常练习“永”字一样，经常练习快速排序算法，可以通过这一道题目练习到很多的知识点。
+快速排序算法在面试过程中也经常直接或间接被考察到。他的实现涉及到了很多重要而细小的知识点，体现了很多数据结构的思想。所以建议经常练习快速排序算法，就好像练习毛笔字的人经常练习“永”字一样，经常练习快速排序算法，可以通过这一道题目练习到很多的知识点。
 
 快速排序实现的开始：
 
@@ -25,7 +25,7 @@ quickSort(int[] array,int left, int right){
     int pivotIndex = partition(array,left, right);
     quickSort(array,left, pivotIndex - 1);
     quickSort(array,pivotIndex + 1, right);
-    
+
 }
 ```
 
@@ -71,21 +71,17 @@ Corner Case 分析：
 
 ```
 private int getRandomPivot(int left, int right){
-		return left + (int)Math.random()*(right - left + 1);
-	}
+        return left + (int)Math.random()*(right - left + 1);
+    }
 
 
 private void swap(int[] array, int left, int right) {
-		// TODO Auto-generated method stub
-		int temp = array[right];
-		array[right] = array[left];
-		array[left] = temp;
-	}
+        // TODO Auto-generated method stub
+        int temp = array[right];
+        array[right] = array[left];
+        array[left] = temp;
+    }
 ```
-
-
-
-
 
 
 
